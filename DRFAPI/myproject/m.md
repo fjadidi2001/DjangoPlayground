@@ -53,3 +53,23 @@ class Note(models.Model):
 
 4. - python manage.py makemigrations
    - python manage.py migrate
+
+5. Creating DRF serializers
+``` 
+from rest_framework import serializers
+from .models import Note
+
+class NoteSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Note
+        fields = '__all__'
+```
+
+
+
+<br>
+
+**Serializers help convert data to and from JSON, but somehow we have to pass that data to them in the first place. This is where views come into play.**
+
+<br>
+
