@@ -15,17 +15,8 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.urls import path, include
-from rest_framework import routers
 
-from ..notes.views import NoteViewSet
-
-notes_router = routers.SimpleRouter()
-notes_router.register(
-    r'notes',
-    NoteViewSet,
-    basename='note',
-)
 
 urlpatterns = [
-    path('api/', include(notes_router.urls))
+    path('notes/', include('notes.urls'))
 ]
