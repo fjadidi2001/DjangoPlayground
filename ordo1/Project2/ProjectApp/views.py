@@ -8,3 +8,7 @@ def Gia(request):
 
 def Gone_Girl(request):
     return HttpResponse
+
+
+def dynamic_world(request, fuck):
+    return HttpResponse(fuck)
