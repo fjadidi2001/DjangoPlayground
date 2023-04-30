@@ -1,3 +1,10 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 
-# Create your views here.
+
+def Gia(request):
+    return HttpResponse
+
+
+def Gone_Girl(request):
+    return HttpResponse
