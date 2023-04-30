@@ -26,3 +26,4 @@ URLs are responsible for addressing the site
 # view
 back url<br>
 Contains function and classes
+نتیجه بر اساس httpresponse برمیگردوند و برای اینکه اجرا بشند از url استفاده میکنیم.
