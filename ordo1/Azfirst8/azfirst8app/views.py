@@ -8,3 +8,9 @@ def saturday(request):
 
 def sunday(request):
     return HttpResponse('this is sunday')
+
+
+def monday(request):
+    return HttpResponse('this is monday')
+
+
