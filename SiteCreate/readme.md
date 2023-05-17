@@ -116,4 +116,12 @@ True
 >>> c = q.choice_set.filter(choice_text__startswith="Just hacking")
 >>> c.delete()
 
+<br>
+
+
+
 ```
+
+<br>
+
+**First, create a directory called templates in your polls directory. Django will look for templates in there.**
