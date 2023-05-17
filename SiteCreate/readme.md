@@ -125,3 +125,4 @@ True
 <br>
 
 **First, create a directory called templates in your polls directory. Django will look for templates in there.**
+**Within the templates directory you have just created, create another directory called polls, and within that create a file called index.html. In other words, your template should be at polls/templates/polls/index.html. Because of how the app_directories template loader works as described above, you can refer to this template within Django as polls/index.html.**
