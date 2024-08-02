@@ -1,6 +1,5 @@
 # Django Learning Project
 
-## Repository Name: DjangoPlayground
 
 ### Description
 Welcome to the **DjangoPlayground** repository! This project serves as a comprehensive learning resource for anyone interested in mastering Django and building web applications using the Django framework. The repository includes various sample applications and components to practice and enhance your skills.
