@@ -20,15 +20,11 @@ Welcome to the **DjangoPlayground** repository! This project serves as a compreh
 - **manage.py**: A command-line utility that lets you interact with your Django project.
 - **DRFAPI/**: A Django Rest Framework application for building APIs.
 - **SiteCreate/**: A component for creating a site or specific feature within the project.
-- **Store/**: Perhaps an application related to e-commerce or product management.
+- **Store/**: an application related to e-commerce or product management.
 - **book/**: This might be an application related to a library or book collection.
 - **envi/**: Possibly related to environment settings or configurations.
-- **ordo1/**: The purpose of this directory is unclear, but it could be another Django app.
-- **Azfirst8/**: Could be a reference to a project or application you're working on.
-- **azfirst8app/**: Another potential app, potentially related to the previous.
-- **MyProject/**: A folder that likely contains the main project structure.
-- **killer/**: The purpose of this directory is not specified; it could be a sample app or feature.
-- **readme.md**: A file to describe the repository and provide documentation.
+- **ordo1/**: A course project.
+
 
 ### Getting Started
 
@@ -65,4 +61,3 @@ Contributions are welcome! Please feel free to open issues, submit pull requests
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-Happy coding! Enjoy your journey into the world of Django development!
