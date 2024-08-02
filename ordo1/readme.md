@@ -1,29 +1,26 @@
 # django-admin
 ### manage.py
-don't touch anything in this file. this file manage project and we can run project with this file
+This file should not be modified; it manages the project and allows us to run it.
 ### __init__.py
-this file enables us to make the module
+This file enables module creation.
 ### asgi.py & wsgi.py
-deploy project
+Used for deploying the project.
 ### settings.py
-global settings
+Houses global settings.
 ### urls.py
-Manipulating this file, we demonstrate what files the user can see
+Manipulating this file controls which files are visible to users.
 # startapp
 ### migration and models.py
-migration and models.py return to database
-migration save database changes
-models save Entity
+These return changes to the database. Migrations save database modifications, while models save entities.
 ### admin.py
-configuration and show item in models 
+Configures and displays items in models. 
 ### tests.py
- it is used for writing tests
- ### views.py
-it sets what to show to the user<br>
-*When creating an app you should add this app to INSTALLED_APP in settings*
+Used for writing tests.
+### views.py
+Determines what to display to the user.<br>
+*When creating an app, remember to add it to INSTALLED_APPS in settings.*
 # url
-URLs are responsible for addressing the site
+URLs are responsible for site addressing.
 # view
-back url<br>
-Contains function and classes
-نتیجه بر اساس httpresponse برمیگردوند و برای اینکه اجرا بشند از url استفاده میکنیم.
+Contains functions and classes for handling URLs.<br>
+Returns results based on HttpResponse and utilizes URLs for execution.
